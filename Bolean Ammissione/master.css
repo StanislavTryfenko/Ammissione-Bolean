@@ -1,0 +1,83 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+body{
+    background-image:url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.boxopaco{
+    width: 1200px;
+    background-color: rgba(0,0,0,50%);
+    margin: 2% 20%;
+    border-radius: 20px;
+    height: 750px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 400px 550px,; 
+}
+
+.logo{
+    width: 25%;
+    margin-top: 100px;
+}
+
+.titolo{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+    color: lime;
+    margin-bottom: 5px;
+}
+
+.bottoni{
+    display: block;
+    text-align: center;
+    background-color: lime;
+    border: 10px solid lime;
+}
+
+.distanzaparagrafo{
+    margin-top: 20px;
+}
+
+.spesso{
+    font-size: 20px;
+    color: white;
+}
+
+.bianco{
+    color: white;
+}
+
+.barraarancione{
+    background-color: orange;
+    border: 15px solid orange;
+    border-radius: 7px;
+    margin-top: 1px;
+    margin-right: 650px;
+} 
+
+.barralime{
+    background-color: lime;
+    border: 15px solid lime;
+    border-radius: 7px;
+    margin-top: 1px;
+    margin-right: 370px;
+} 
+
+.barrarossa{
+    background-color: red;
+    border: 15px solid red;
+    border-radius: 7px;
+    margin-top: 1px;
+    margin-right: 800px;
+}
